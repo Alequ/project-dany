@@ -1,0 +1,341 @@
+
+body {
+
+    padding:0;
+    font-family: sans-serif;
+}
+
+/*NavBar  */
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+
+#logo {
+  width:250px;
+}
+
+}
+.navbar-nav {
+    float: right;
+    margin: 0 auto;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-right: 1px solid white;
+    margin:0 auto;
+
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  background-color: white;
+  color: black
+}
+.navbar-inverse{
+  background-color: #343232;
+  background-image: linear-gradient(0deg, #231f20 0%, #2f2d2d 45%, #3e3c3a 50%, #3e3c3a);
+}
+.headerText{
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    background-image: url("img/tire12.png");
+    background-size: cover;
+    background-repeat: no-repeat
+
+}
+
+
+/* Search container */
+
+.firstContainer{
+  margin-top: 3.5%;
+    background: #ffffff;
+    border: 1px solid rgb(233, 233, 233);
+    box-shadow: 0 40px 30px -40px #999;
+    -webkit-box-shadow: 0 40px 30px -40px #999;
+    -moz-box-shadow: 0 40px 30px -40px #999;
+    -o-box-shadow: 0 40px 30px -40px #999;
+    border-radius: 0.6em;
+    -webkit-border-radius: 0.6em;
+    -moz-border-radius: 0.6em;
+    -o-border-radius: 0.6em;
+}
+}
+#cautare_avansata {
+    font-size: 15px;
+}
+td {
+    vertical-align: top;
+}
+input[type="text"], select {
+    width: 90%;
+    border: 1px solid #bdc3c7;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+.advanced_search .search_content select {
+    padding: 3px;
+}
+hr{
+  border-top: 1px solid #333;
+}
+.advanced_submit{
+  width:260px;
+  margin-top:20px;
+  margin-bottom: 10px;
+  background-color:#e32024;
+  border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+  color:white;
+  font-size:24px;
+  font-weight:bold;
+}
+.search-content{
+  font-size:18px;
+  margin-top:12px;
+}
+
+/*items list */
+.itemsContainer{
+  margin-top: 3.5%;
+    background: #ffffff;
+    border: 1px solid rgb(233, 233, 233);
+    box-shadow: 0 40px 30px -40px #999;
+    -webkit-box-shadow: 0 40px 30px -40px #999;
+    -moz-box-shadow: 0 40px 30px -40px #999;
+    -o-box-shadow: 0 40px 30px -40px #999;
+    border-radius: 0.6em;
+    -webkit-border-radius: 0.6em;
+    -moz-border-radius: 0.6em;
+    -o-border-radius: 0.6em;
+    padding-bottom: 17px;
+}
+.product{
+  display: block;
+  margin: 3% 1% 2% 3.66%;
+  background: #F8F8F8;
+  text-align: center;
+
+    padding: 1.5%;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 0.6em;
+    -webkit-border-radius: 0.6em;
+    -moz-border-radius: 0.6em;
+    -o-border-radius: 0.6em;
+}
+
+
+/*Reclama */
+.commercialContainer{
+  margin-top: 50px;
+    background: #ffffff;
+    border: 1px solid rgb(233, 233, 233);
+    box-shadow: 0 40px 30px -40px #999;
+    -webkit-box-shadow: 0 40px 30px -40px #999;
+    -moz-box-shadow: 0 40px 30px -40px #999;
+    -o-box-shadow: 0 40px 30px -40px #999;
+    border-radius: 0.6em;
+    -webkit-border-radius: 0.6em;
+    -moz-border-radius: 0.6em;
+    -o-border-radius: 0.6em;
+    margin-bottom:30px;
+
+}
+#downGraph{
+  width:200px;
+  display:block;
+   margin:auto;
+}
+h3{
+  text-align:center;
+  font-weight:bold;
+}
+#vulcanizarePic{
+  width:180px;
+  display:block;
+   margin:auto;
+}
+#fancurier{
+  display: block;
+  margin: auto;
+
+  width:100%;
+}
+
+
+/*Footer  */
+
+.footer-top-layout {
+  background: #1c1c1c none repeat scroll 0 0;
+  color: #ffffff;
+  padding: 40px 0;
+}
+.OurBlog {
+  margin-bottom: 32px;
+  text-align: center;
+}
+.footer-top-layout h4 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 21px;
+}
+.OurBlog > p {
+  color: #888888;
+}
+.post-blog-date::after {
+  background: #ffffff none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 4px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  width: 50px;
+}
+.post-blog-date {
+  padding-bottom: 25px;
+  position: relative;
+}
+
+
+
+.footer-top-layout [class*="col-sm-"]:first-child {
+  padding: 0;
+}
+.footer-top-layout [class*="col-sm-"] {
+  border-right: 2px solid #333333;
+  padding: 0 0 0 28px;
+
+}
+.footer-top-layout {
+  color: #ffffff;
+}
+.footer-col-item {
+  min-height: 140px;
+  text-align:center;
+}
+
+address {
+  color: #545454;
+}
+
+
+.footer-top-layout [class*="col-sm-"]:last-child {
+  border-right: medium none;
+}
+.footer-top-layout {
+  color: #ffffff;
+}
+
+.footer-top-layout h4 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 21px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+  font-family: "Roboto",sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+.footer-col-item .item-contact a {
+  color: #545454;
+  display: inline-block;
+  margin-bottom: 7px;
+  width: 100%;
+}
+
+.footer-col-item .item-contact a .link-id {
+  color: #ffffff;
+  margin-left: 0;
+  margin-right: 6px;
+}
+.footer-col-item span {
+  margin-left: 7px;
+}
+.footer-col-item .item-contact a {
+  color: #545454;
+}
+
+.footer-top-layout h4 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 21px;
+}
+.signUpNewsletter {
+  position: relative;
+}
+.signUpNewsletter .gt-email {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #666666;
+  border-radius: 0;
+  color: #ffffff;
+  height: 52px;
+}
+.signUpNewsletter .btn-go {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-color: #666666;
+  border-style: solid;
+  border-width: 0 0 0 1px;
+  bottom: 0;
+  color: #ffffff;
+  font-size: 16px;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  top: 0;
+  width: 52px;
+}
+.footer-bottom-layout {
+  background: #222222 none repeat scroll 0 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.socialMedia-footer {
+  margin-bottom: 20px;
+}
+.socialMedia-footer > a {
+  display: inline-block;
+  margin: 0 8px;
+}
+.footer-bottom-layout {
+  text-align: center;
+}
+
+/*Contact form */
+
+.map {
+        min-width: 300px;
+        min-height: 300px;
+        width: 100%;
+        height: 100%;
+}
+
+.header {
+        background-color: #F5F5F5;
+        color: #36A0FF;
+        height: 70px;
+        font-size: 27px;
+        padding: 10px;
+}
+.form-control{
+  margin-bottom:10px;
+}
