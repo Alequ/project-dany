@@ -64,10 +64,7 @@ margin-top: 10px !important;
 
 .firstContainer{
   margin-top: 3.5%;
-    background-image:url("");
 
-
-    background-position: right;
     border: 1px solid rgb(233, 233, 233);
     box-shadow: 0 40px 30px -40px #999;
     -webkit-box-shadow: 0 40px 30px -40px #999;
@@ -99,6 +96,7 @@ margin-top: 10px !important;
     -o-border-radius: 0.6em;
     padding-bottom: 17px;
         height: 1100px;
+        overflow: auto;
 }
 .product{
   display: block;
@@ -364,4 +362,7 @@ address {
 }
 .holder span {
    margin: 0 5px;
+}
+#here{
+  margin-left:20px;
 }
