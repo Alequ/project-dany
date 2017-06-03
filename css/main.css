@@ -19,8 +19,15 @@ body {
 #logo {
   width:250px;
 }
+h2{
+  color: #e32024 !important;
+font-weight: bold !important;
+margin-top: 10px !important;
 
 }
+}
+
+
 .navbar-nav {
     float: right;
     margin: 0 auto;
@@ -57,7 +64,10 @@ body {
 
 .firstContainer{
   margin-top: 3.5%;
-    background: #ffffff;
+    background-image:url("");
+
+
+    background-position: right;
     border: 1px solid rgb(233, 233, 233);
     box-shadow: 0 40px 30px -40px #999;
     -webkit-box-shadow: 0 40px 30px -40px #999;
@@ -68,46 +78,11 @@ body {
     -moz-border-radius: 0.6em;
     -o-border-radius: 0.6em;
 }
+#rowOfTires{
+  max-height:100%;
+   max-width:100%;
 }
-#cautare_avansata {
-    font-size: 15px;
-}
-td {
-    vertical-align: top;
-}
-input[type="text"], select {
-    width: 90%;
-    border: 1px solid #bdc3c7;
-    padding: 10px 10px 10px 10px;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -khtml-border-radius: 3px;
-    border-radius: 3px;
-}
-.advanced_search .search_content select {
-    padding: 3px;
-}
-hr{
-  border-top: 1px solid #333;
-}
-.advanced_submit{
-  width:260px;
-  margin-top:20px;
-  margin-bottom: 10px;
-  background-color:#e32024;
-  border-radius: 5px 5px 5px 5px;
-    cursor: pointer;
-  color:white;
-  font-size:24px;
-  font-weight:bold;
-}
-.search-content{
-  font-size:18px;
-  margin-top:12px;
-}
+
 
 /*items list */
 .itemsContainer{
@@ -123,6 +98,7 @@ hr{
     -moz-border-radius: 0.6em;
     -o-border-radius: 0.6em;
     padding-bottom: 17px;
+        height: 1100px;
 }
 .product{
   display: block;
@@ -163,6 +139,7 @@ hr{
 h3{
   text-align:center;
   font-weight:bold;
+  color:#0b1997 !important;
 }
 #vulcanizarePic{
   width:180px;
@@ -338,4 +315,53 @@ address {
 }
 .form-control{
   margin-bottom:10px;
+}
+
+
+/*Product list  */
+
+#productList li  {
+  list-style-type: none;
+  margin-top: 20px;
+}
+#productList p {
+  color: red;
+  font-weight: bold;
+    font-size: 18px;
+}
+.holder{
+  float: right;
+}
+.holder {
+   margin:15px 0;
+}
+.holder a {
+   font-size:12px;
+   cursor:pointer;
+   margin:0 5px;
+   color:#333;
+}
+.holder a:hover {
+   background-color:#222;
+   color:#fff;
+}
+.holder a.jp-previous {
+   margin-right:15px;
+}
+.holder a.jp-next {
+   margin-left:15px;
+}
+.holder a.jp-current,a.jp-current:hover {
+   color:#FF4242;
+   font-weight:bold;
+}
+.holder a.jp-disabled,a.jp-disabled:hover {
+   color:#bbb;
+}
+.holder a.jp-current,a.jp-current:hover,.holder a.jp-disabled,a.jp-disabled:hover {
+   cursor:default;
+   background:none;
+}
+.holder span {
+   margin: 0 5px;
 }
